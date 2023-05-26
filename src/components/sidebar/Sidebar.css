@@ -1,0 +1,14 @@
+#cal-list {
+  list-style: none;
+}
+
+.react-calendar {
+  width: 215px !important;
+  height: 200px !important;
+  border: none !important;
+  font-size: 0.6em;
+}
+
+.react-calendar__tile {
+  font-size: 1em;
+}
