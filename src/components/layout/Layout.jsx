@@ -1,9 +1,12 @@
-import { Outlet } from "react-router-dom";
-import Sidebar from "../sidebar/Sidebar";
 import "./Layout.css";
+import Upbar from "../upbar/Upbar";
 
 const Layout = () => {
-  return <Sidebar />;
+  return (
+    <>
+      <Upbar />
+    </>
+  );
 };
 
 export default Layout;

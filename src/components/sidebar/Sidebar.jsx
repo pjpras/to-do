@@ -12,7 +12,7 @@ const Sidebar = () => {
       <nav>
         <ul>
           <li id="cal-list">
-            <NavLink to="/" activeClassName="active-link">
+            <NavLink to="/" className="active-link">
               <Calendar onChange={onChange} value={value} />
             </NavLink>
           </li>
