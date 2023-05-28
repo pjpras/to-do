@@ -1,14 +1,36 @@
-#cal-list {
+.list-container {
+  display: flex;
+}
+
+.nav-container {
+  width: 10rem;
+  height: 41rem;
+  background: whitesmoke;
+  position: relative;
+}
+
+.list-icon {
+  text-align: left;
+  margin: 1rem 3rem;
+}
+
+#list-icon-svg {
+  height: auto;
+  width: 2rem;
+}
+
+.sidebar-list {
   list-style: none;
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
 }
 
-.react-calendar {
-  width: 215px !important;
-  height: 200px !important;
-  border: none !important;
-  font-size: 0.6em;
+.sidebar-list-item {
+  margin: 5rem 0rem;
 }
 
-.react-calendar__tile {
-  font-size: 1em;
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
 }
